@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" href="images/logo.png">
+    
+    <script src="java.min.js"></script>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flickity.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Masa's Harina</title>
+</head>
+
+<body>
+
+    <section class="Navbar-Menu" id="Navbar-Menu-Id">
+        <div class="menu">
+            <div class="leftside">
+                <img src="logo.png" alt="logo.png">
+            </div>
+            <div class="rightside" id="rightside">
+                <nav class="Icons">
+                    <a href="#Navbar-Menu-Id" class="navicon">Inicio</a>
+                    <a href="#Second-sec-id" class="navicon">Sobre nosotros</a>
+                    <a href="#menu-id" class="navicon">Menu</a>
+                    <a href="#Gallery-Id" class="navicon">Galería</a>
+                    <a href="#Feedback" class="navicon">Comentarios</a>
+                    <a href="#footerid" class="navicon">Contactanos</a>
+                    <i class="fas fa-times-circle" id="cross" onclick="Hidemenu()"></i>
+
+                    <div class="social">
+                        <li id="Border"></li>
+                        <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+                        <a href="Producto.html" id="Sweet-Bakery">Productos</a>
+                    </div>
+                </nav>
+            </div>
+            <div class="menubar" >
+                <div class="line" onclick="Togglebar()"></div>
+                <div class="line" onclick="Togglebar()"></div>
+                <div class="line" onclick="Togglebar()"></div>
+            </div>
+        </div>
+        <div class="heading" >
+            <h2>Bienvenidos a Masa's Harina</h2>
+            <p>Panadería Masa's Harina Excelente calidad , Excelente sabor , Excelente precios. </p>
+            <a href="comentario.html"><i class="fal fa-phone-rotary"></i>Contacta con nosotros</a>
+        </div>
+        <div class="Scroll-Arrow" id="topbutton">
+            <a href="#"><i class="fal fa-arrow-up"></i></a>
+         </div>
+    </section>
+
+    <section class="second-Sec" id="Second-sec-id">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mx-auto second-sec">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/a2mS6CrCyII?si=KAAQM1f2mDh2nyoa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" rel=0 class="container-fluid" allowfullscreen></iframe>
+
+                </div>
+                <div class="col-lg-6 col-md-6 mx-auto second-sec">
+                    <h2><span id="Welcome">Bienvenidos a </span> Masa y Harina</h2>
+                    </br> Somos una empresa dedicada a la elaboración de productos de panadería y pastelería comprometidos con nuestros clientes en brindarles productos de gran calidad y sabor con un servicio amable y oportuno</br>      
+                    <p></p>                    
+                    <a href="#">Sobre nosotros</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="MenuSection" id="menu-id">
+        <h1>NUESTRAS ESPECIALIDADES</h1>
+        <p>Productos de panadería frescos con los mejores ingredientes</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="Frutas.jpeg" alt=""
+                        class="container-fluid">
+                    <h3>Frutas</h3>
+                    <h6>S/3.00<span id="Weight"> Por Kg</span></h6>
+                    <a href="#">Pedir</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="Saborizante.png" alt=""
+                        class="container-fluid">
+                    <h3>Saborizantes</h3>
+                    <h6>S/42.00<span id="Weight">pack 12 unidades</span></h6>
+                    <a href="#">Pedir</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+
+                    <img src="Especias.jpeg" alt=""
+                        class="container-fluid">
+                    <h3>Especias</h3>
+                    <h6>S/3.50<span id="Weight">Por unidad</span></h6>
+                    <a href="#">Pedir</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+
+                    <img src="Chocolate.jpeg" alt=""
+                        class="container-fluid">
+                    <h3>Chocolate</h3>
+                    <h6>S/35.00<span id="Weight">Por unidad</span></h6>
+                    <a href="#">Pedir</a>
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="Levadura.jpeg" alt=""
+                        class="container-fluid">
+                    <h3>Levadura</h3>
+                    <h6>S/7.50<span id="Weight"> Por bolsa</span></h6>
+                    <a href="#">Pedir</a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="Sal.jpg" alt=""
+                        class="container-fluid">
+                    <h3>Sal</h3>
+                    <h6>S/3.00<span id="Weight"> Por bolsa</span></h6>
+                    <a href="#">Pedir</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://cdn.britannica.com/94/151894-050-F72A5317/Brown-eggs.jpg" alt=""
+                        class="container-fluid">
+                    <h3>Huevos</h3>
+                    <h6>S/18.00<span id="Weight">Por 30 Unidades</span></h6>
+                    <a href="#">Pedir</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+
+                    <img src="https://s.marketwatch.com/public/resources/images/MW-BS913_butter_MG_20140120151235.jpg" alt=""
+                        class="container-fluid">
+                    <h3>Mantequilla</h3>
+                    <h6>S/7.80<span id="Weight"> Por Unidad</span></h6>
+                    <a href="#">Pedir</a>
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="Endulzantes.jpeg" alt=""
+                        class="container-fluid">
+                    <h3>Endulzantes</h3>
+                    <h6>S/6.00<span id="Weight"> Por bolsa</span></h6>
+                    <a href="#">Pedir</a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="Polvoparahornear.jpeg"
+                        alt="" class="container-fluid">
+                    <h3>Polvo para hornear</h3>
+                    <h6>S/2.00<span id="Weight"> Por bolsa</span></h6>
+                    <a href="#">Pedir</a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="Harina.jpeg" alt=""
+                        class="container-fluid">
+                    <h3>Harina</h3>
+                    <h6>S/9.00<span id="Weight"> por Caja</span></h6>
+                    <a href="#">Pedir</a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://c4.wallpaperflare.com/wallpaper/319/276/863/cheese-milk-cheese-milk-wallpaper-preview.jpg" alt="" class="container-fluid">
+                    <h3>Leche</h3>
+                    <h6>S/6.50<span id="Weight"> Por Caja</span></h6>
+                    <a href="#">Pedir</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Gallery" id="Gallery-Id">
+        <h1>Galería</h1>
+        <p>Te invitamos a degustar productos del horno a tu mesa, con los más altos estándares de calidad y precios accesibles a nuestra comunidad</p>
+
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+           
+        <div class="carousel-cell">
+        <img src="https://images.unsplash.com/photo-1605807646983-377bc5a76493?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80">
+        <a href="#">Reposteria</a>
+       
+        </div>
+       
+        <div class="carousel-cell">
+        <img src="https://media.istockphoto.com/photos/indian-sweets-in-a-plate-includes-gulab-jamun-rasgulla-kaju-katli-picture-id1054228718?k=20&m=1054228718&s=612x612&w=0&h=OFcioOdcbacinr2F7M0hULoAr3egWnU_BIt5XLmznf0=">
+            <a href="#">Bocaditos</a>
+
+        </div>
+       
+        <div class="carousel-cell">
+            <img src="https://noly.com.ar/img/02_Productos/Productos_1.jpg">
+                <a href="#">Pan de mesa</a>
+               
+            </div>
+           
+            <div class="carousel-cell">
+            <img src="https://media.istockphoto.com/id/1432063167/es/foto/bollos-de-hamburguesa-de-brioche-dulce-caseros-textura-con-varios-panes-de-brioche.jpg?s=612x612&w=0&k=20&c=5ixB6CjygLjG-MLjnXIBbPknoO9saWOppoXP3jFZlf0=">
+                <a href="#">Pan Dulce</a>
+               
+            </div>
+            <div class="carousel-cell">
+                <img src="data:image/jpeg;base64,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">
+                    <a href="#">Pan Integral</a>
+                   
+                </div>
+            </div>
+    </div>
+</section>
+
+<section class="Feedback" id="Feedback">
+    <h1>Comentarios</h1>
+    <div class="feedback-background">
+            <div class="center-heading">
+            <p>Tiene comentarios sobre nuestros productos.<br> Comuníquese directamente con Masa's Harina</p>
+            <a href="comentario.html">Enviar comentario</a>   
+            </div> 
+    </div>
+</section>
+
+
+<section class="footer" id="footerid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 mx-auto">
+                <h3>Sobre Nosotros</h3>
+                <p>Somos una empresa dedicada a la elaboración de productos de panadería y pastelería comprometidos con nuestros clientes en brindarles productos de gran calidad y sabor con un servicio amable y oportuno</p>
+                <hr class="w-25 mx-auto text-dark">
+                <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://gmail.google.com" target="blank"><i class="fab fa-google-plus-g"></i></a>
+                <a href="https://www.pinterest.com/" target="blank"><i class="fab fa-pinterest"></i></a>
+                <a href="https://instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto">
+                <h3>Contacta con nosotros</h3>
+                <p>Av. Jorge Chávez 706, Arequipa, Peru</p>
+                <hr class="w-25 mx-auto text-dark">
+                <p>Hora: Abierto 8-AM To 9-PM <br>
+                    Lunes a Sabado <br>
+                Celular: (054) 341579</p>      
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto">
+                <h3>Ubicacion</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d956.8327480423472!2d-71.53644595826118!3d-16.408007791992432!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424af9d06c5be1%3A0x1ba50129d18965d6!2sAv.%20Jorge%20Ch%C3%A1vez%20706%2C%20Arequipa%2004001!5e0!3m2!1ses-419!2spe!4v1717091033028!5m2!1ses-419!2spe"  height="200" style="border:0;" allowfullscreen="" loading="lazy" class="container-fluid"></iframe>
+            </div>
+        </div>
+    </div>
+    <hr class="w-50 mt-5 mx-auto text-dark">
+    <div class="container last-footer" >
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4 id="last-logo">Masa's Harina</h4>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4><span id="Name">Masa's Harina</span> © Política de Privacidad</h4>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4>Diseño y desarrollo por <span id="Name"> Gerardo Loaiza</span></h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
